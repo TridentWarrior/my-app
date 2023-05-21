@@ -1,0 +1,32 @@
+.swt-1 {
+  background-color: white;
+  border-color: black;
+}
+.swt-1:checked {
+  background-color: black;
+  border-color: white;
+}
+
+.swt-2 {
+  background-color: white;
+  border-color: #660505;
+}
+.swt-2:checked {
+  background-color: #660505;
+  border-color: white;
+}
+.swt-3 {
+  background-color: white;
+  border-color: #084103;
+}
+.swt-3:checked {
+  background-color: #084103;
+  border-color: white;
+}
+
+/* .form-switch .form-check-input {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='white'/%3e%3c/svg%3e");
+} */
+.form-switch .swt-1:focus {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='grey'/%3e%3c/svg%3e");
+}
